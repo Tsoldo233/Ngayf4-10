@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #target1 {
+            width: 150px;
+            height: 100px;
+            background-color: aqua;
+            position: relative;
+            top: 200px;
+            left: 300px;
+            text-align: center;
+        }
+        #target2 {
+            width: 150px;
+            height: 100px;
+            background-color: aqua;
+            position:absolute;
+            top: 200px;
+            left: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        ***position: relative 
+        ***position: absolute 
+        lấy tọa độ gốc của trình duyệt làm tọa độ gốc khi di chuyển theo thuộc tính tọa độ như là :
+        top , left, bottom , right
+        đây là trường hợp số 1 của absolute 
+        thẻ html nằm trực tiếp bên trong thẻ body hoặc thẻ html đó nằm trong thẻ html có position của thẻ mẹ là static 
+    </pre>
+    <div id="target1">
+        <h1>HÙNG LỢN </h1>
+    </div>
+    <div id="target2">
+        <h1>HÙNG LỢN </h1>
+    </div>
+</body>
+</html>
